@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Nav from './Component/Nav'
+import { Stack } from '@mui/material'
+import AddDirectory from './Component/AddDIrectory'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Stack >
+      <Nav/>
+      {/* <AddDirectory/> */}
+    </Stack>
+  )
 }
 
-export default App;
+export default App

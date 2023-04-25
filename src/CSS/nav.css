@@ -1,0 +1,16 @@
+.nav{
+    background-color: #000000;
+    color: white;
+    min-width:max-content;
+    align-items: center;
+    justify-content:center ;
+    
+}
+.navBox{
+    margin:0px 0px 0px 0px;
+ }
+ .navItem{
+    margin: 200px;
+
+ }
+
